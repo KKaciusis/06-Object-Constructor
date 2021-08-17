@@ -13,7 +13,7 @@ function Students(id, name, sname){
     this.data = new Date();
 }
  for(let i = 0; i < 20; i++){
-        mas.push(new Students(i+1, `name${i+1}`, `sname${i+1}`))/* [i] */;
+        mas.push(new Students(i+1, `name${i+1}`, `sname${i+1}`));
     }
  for(let k = 0; k < mas.length; k++){
         mas[k].grade[k] = Math.random()*10;
